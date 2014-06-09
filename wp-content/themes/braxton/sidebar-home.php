@@ -114,7 +114,7 @@
 
 	<div class="sidebar-widget">
 
-		<h4 class="ad-header"><?php _e( 'Advertisement', 'mvp-text' ); ?></h4>
+		<h4 class="ad-header"><?php _e( 'Publicidade', 'mvp-text' ); ?></h4>
 
 		<div class="ad125-wrapper">
 
