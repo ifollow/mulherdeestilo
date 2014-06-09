@@ -32,7 +32,7 @@
 
 			<?php
 
-			printf( _n( '1 Comment', '%1$s Comments', get_comments_number(), 'mvp-text' ),
+			printf( _n( '1 Comentário', '%1$s Comentários', get_comments_number(), 'mvp-text' ),
 
 			number_format_i18n( get_comments_number() ), '<em>' . get_the_title() . '</em>' );
 
@@ -44,9 +44,9 @@
 
 	<div class="navigation">
 
-		<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'mvp-text' ) ); ?></div>
+		<div class="nav-previous"><?php previous_comments_link( __( '&larr; Comentários Antigos', 'mvp-text' ) ); ?></div>
 
-		<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'mvp-text' ) ); ?></div>
+		<div class="nav-next"><?php next_comments_link( __( 'Novos Comentários &rarr;', 'mvp-text' ) ); ?></div>
 
 	</div> <!--navigation-->
 
@@ -66,9 +66,9 @@
 
 	<div class="navigation">
 
-		<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'mvp-text' ) ); ?></div>
+		<div class="nav-previous"><?php previous_comments_link( __( '&larr; Comentários Antigos', 'mvp-text' ) ); ?></div>
 
-		<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'mvp-text' ) ); ?></div>
+		<div class="nav-next"><?php next_comments_link( __( 'Novos Comentários &rarr;', 'mvp-text' ) ); ?></div>
 
 	</div> <!--navigation-->
 
@@ -96,7 +96,7 @@
 
 		<p>
 
-			<?php _e('You must be logged in to post a comment' , 'mvp-text'); ?>
+			<?php _e('Você precisa estar logado para comentar' , 'mvp-text'); ?>
 
 			<a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">
 
