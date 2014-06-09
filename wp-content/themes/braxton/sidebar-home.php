@@ -1,5 +1,15 @@
 <div id="sidebar-wrapper">
 
+	<div class="sidebar-widget">
+
+		<span class="sidebar-widget-header"><h3 class="sidebar-widget-header">Quem Somos</h3></span>
+
+		<a href="http://107.170.200.217/?page_id=743">
+			<img src="http://107.170.200.217/wp-content/uploads/2014/06/logo-mulher.png">
+		</a>
+		
+	</div><!--sidebar-widget-->
+
 	<?php if ( ! dynamic_sidebar( 'sidebar-home-widget' ) ) : ?>
 
 	<div class="sidebar-widget">
