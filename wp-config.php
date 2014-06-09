@@ -25,7 +25,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'rub32912289');
 
 /** nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8');
