@@ -10,6 +10,30 @@
 
 			<div class="widget-ad">
 
+				<img src="http://4.bp.blogspot.com/-iikWul4knT8/U20xBwCJCxI/AAAAAAAAHZI/9BVAa_gXgEY/s1600/10274336_642662085787538_4815719499642225118_n.jpg" />
+
+			</div><!--widget-ad-->
+
+			<div class="widget-ad">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/images/ad300.gif" />
+
+			</div><!--widget-ad-->
+
+			<div class="widget-ad">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/images/ad300.gif" />
+
+			</div><!--widget-ad-->
+
+			<div class="widget-ad">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/images/ad300.gif" />
+
+			</div><!--widget-ad-->
+			
+			<div class="widget-ad">
+
 				<img src="<?php echo get_template_directory_uri(); ?>/images/ad300.gif" />
 
 			</div><!--widget-ad-->
