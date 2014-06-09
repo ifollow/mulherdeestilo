@@ -13,49 +13,50 @@
 				<img src="http://4.bp.blogspot.com/-iikWul4knT8/U20xBwCJCxI/AAAAAAAAHZI/9BVAa_gXgEY/s1600/10274336_642662085787538_4815719499642225118_n.jpg" />
 
 			</div><!--widget-ad-->
+			<br /><br />
 
 			<div class="widget-ad">
 
 				<img src="http://1.bp.blogspot.com/-ODSrr3jl29k/U20ypFMCjcI/AAAAAAAAHZc/ZH2FvdVEh4g/s1600/fernanda2.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://oi44.tinypic.com/30c9jww.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://oi41.tinypic.com/6r0cp1.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://i60.tinypic.com/2dalkdi.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://i60.tinypic.com/dbmxwn.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://4.bp.blogspot.com/-GLE7d9ydAk0/UzR8DirTECI/AAAAAAAAGyA/SoyqD4DhNl0/s1600/alineBoechat.jpg" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 			<div class="widget-ad">
 
 				<img src="http://3.bp.blogspot.com/-GvsjTlQrYzI/U2000-h0LLI/AAAAAAAAHZo/V9gLIuixaAs/s1600/Sem+t%C3%ADtulo-1.png" />
 
 			</div><!--widget-ad-->
-
+			<br /><br />
 		</div><!--widget-ad-->
 
 	</div><!--sidebar-widget-->
