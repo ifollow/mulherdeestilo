@@ -160,7 +160,7 @@
 
 		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMulher-de-Estilo%2F119237574878405&amp;width=300&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true&amp;appId=742682492433145" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px;" allowTransparency="true"></iframe>
 	</div><!--sidebar-widget-->
-
+	<?php /*
 	<div class="sidebar-widget">
 
 		<h4 class="ad-header"><?php _e( 'Publicidade', 'mvp-text' ); ?></h4>
@@ -182,7 +182,7 @@
 		</div><!--ad125-wrapper-->
 
 	</div><!--sidebar-widget-->
-
+	  */  ?>
 	<?php endif; ?>
 
  	<?php if ( is_active_sidebar( 'sidebar-home-widget' ) ) : ?>
