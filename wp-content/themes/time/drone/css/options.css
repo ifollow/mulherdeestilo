@@ -1,0 +1,317 @@
+/**
+ * Drone Options Style
+ *
+ * @since: 2.0
+ * @subpackage: Drone
+ */
+
+/* Group
+----------------------------------------------------------------------------- */
+.drone-group .drone-group {
+	margin-top: -15px;
+	margin-bottom: -15px !important;
+}
+
+/* Row
+----------------------------------------------------------------------------- */
+.drone-row + .drone-row {
+	border-top: 1px dotted #dfdfdf;
+}
+.drone-group .drone-group .drone-row + .drone-row {
+	border-top: none;
+}
+.drone-group .drone-group .drone-row + .drone-row > th {
+	padding-top: 5px;
+}
+.drone-group .drone-group .drone-row + .drone-row > td {
+	padding-top: 0;
+}
+.drone-row.drone-hidden {
+	display: none;
+}
+.drone-row.drone-indent > :first-child > label,
+.drone-row.drone-indent > :first-child > .drone-option {
+	border-left: 1px solid #dfdfdf;
+	margin-left: 6px;
+	padding-left: 15px;
+}
+
+/* Label, description
+----------------------------------------------------------------------------- */
+.drone-label label {
+	display: block;
+}
+.drone-group .drone-group .drone-label {
+	width: 130px;
+}
+.drone-group .drone-group .drone-label {
+	width: 130px;
+}
+.drone-theme-options .drone-description {
+	font-size: 12px;
+}
+
+/* Theme options
+----------------------------------------------------------------------------- */
+.drone-theme-options .drone-row > td:first-child {
+	padding-left: 0;
+}
+.drone-theme-options .drone-error > .drone-label > label:before {
+	content: '\f153';
+	color: #d54e21;
+	font: normal 1.4em/1 dashicons;
+	margin-right: 0.2em;
+	vertical-align: middle;
+}
+.branch-3-5 .drone-theme-options .drone-error > .drone-label > label:before,
+.branch-3-6 .drone-theme-options .drone-error > .drone-label > label:before,
+.branch-3-7 .drone-theme-options .drone-error > .drone-label > label:before {
+	content: '!';
+	font: inherit;
+	vertical-align: baseline;
+	margin-right: 0.4em;
+}
+
+/* Post options
+----------------------------------------------------------------------------- */
+.drone-post-options {
+	margin: -6px -12px -12px;
+}
+.drone-post-options .drone-group,
+.drone-post-options .drone-group td,
+.drone-post-options .drone-group th,
+.drone-post-options .drone-group td p {
+	font-size: 13px;
+}
+.drone-post-options .drone-label {
+	padding-left: 12px;
+}
+.drone-post-options .drone-group .drone-group .drone-label {
+	padding-left: 0;
+}
+#side-sortables .drone-post-options .drone-label {
+	width: 40%;
+}
+.drone-post-options .drone-group + .drone-description {
+	border-top: 1px dotted #dfdfdf;
+	margin: 0;
+	padding: 6px 10px;
+}
+
+/* Widget options
+----------------------------------------------------------------------------- */
+.drone-widget-options .drone-row {
+	border-top: none !important;
+	margin: 1em 0;
+}
+.drone-widget-options .drone-label {
+	line-height: 1.5em;
+	display: block;
+}
+.drone-widget-options .drone-description {
+	line-height: 1.5em;
+	padding: 0 !important;
+}
+
+/* Text option
+----------------------------------------------------------------------------- */
+.drone-theme-options .drone-option-text {
+	width: 300px;
+}
+.drone-post-options .drone-option-text {
+	width: 400px;
+}
+#side-sortables .drone-post-options .drone-option-text {
+	width: 99%;
+}
+.drone-widget-options .drone-option-text {
+	margin: 0;
+	width: 100%;
+}
+
+/* Memo option
+----------------------------------------------------------------------------- */
+.drone-theme-options .drone-option-memo {
+	width: 500px;
+	height: 200px;
+}
+.drone-post-options .drone-option-memo {
+	width: 99%;
+	height: 6em;
+}
+.drone-widget-options .drone-option-memo {
+	margin: 0;
+	width: 100%;
+	height: 6em;
+}
+
+/* Numer option
+----------------------------------------------------------------------------- */
+.drone-option-number {
+	text-align: right;
+	width: 70px;
+}
+.drone-widget-options .drone-option-number {
+	margin: 0;
+}
+
+/* List option
+----------------------------------------------------------------------------- */
+.drone-option-list {
+	min-width: 150px;
+	max-width: 500px;
+}
+select.drone-option-list {
+	vertical-align: baseline;
+}
+.drone-option-list[multiple] {
+	height: 120px;
+}
+#side-sortables .drone-post-options .drone-option-list {
+	min-width: 0;
+	width: 99%;
+}
+.drone-widget-options .drone-option-list {
+	margin: 0;
+	min-width: 50px;
+	width: 100%;
+}
+
+/* Group option
+----------------------------------------------------------------------------- */
+.drone-option-group {
+	display: inline-block;
+}
+.drone-option-group.drone-option-group-vertical label {
+	display: block;
+}
+.drone-option-group.drone-option-group-horizontal label {
+	display: inline-block;
+}
+.drone-option-group.drone-option-group-horizontal label + label {
+	margin-left: 15px !important;
+}
+.drone-option-group.drone-option-group-sortable label {
+	cursor: move;
+}
+.drone-option-group label sup {
+	line-height: 0;
+}
+.drone-option-group .drone-option-group-placeholder {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px dashed #dfdfdf;
+	height: 1.4em;
+	min-width: 98px;
+}
+
+/* Image Group option
+----------------------------------------------------------------------------- */
+.drone-option-image-group {
+	width: 400px;
+}
+.drone-option-image-group.drone-option-group.drone-option-group-horizontal label {
+	line-height: 0;
+	position: relative;
+	margin: 0px !important;
+	padding: 5px;
+}
+.drone-option-image-group input {
+	display: none;
+}
+.drone-option-image-group input:checked + span {
+	border-radius: 64px;
+	background-color: #444;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.drone-option-image-group img {
+	cursor: pointer;
+	position: relative;
+}
+
+/* Attachment option
+----------------------------------------------------------------------------- */
+.drone-option-attachment span {
+	border-bottom: 1px solid #dfdfdf;
+	display: inline-block;
+	padding: 4px 0 4px;
+	vertical-align: middle;
+}
+.drone-option-attachment a {
+	vertical-align: middle;
+}
+.drone-theme-options .drone-option-attachment span {
+	width: 300px;
+}
+.drone-post-options .drone-option-attachment span {
+	width: 400px;
+}
+#side-sortables .drone-post-options .drone-option-attachment span {
+	width: 99%;
+}
+.drone-widget-options .drone-option-attachment span {
+	margin: 0;
+	width: 100%;
+}
+
+/* Color option
+----------------------------------------------------------------------------- */
+.drone-option-color {
+	width: 70px;
+}
+.drone-widget-options .drone-option-color {
+	margin: 0;
+}
+
+/* Array option
+----------------------------------------------------------------------------- */
+.drone-option-array > ul {
+	list-style: decimal outside;
+	position: relative;
+	margin: 0 0 6px 20px;
+}
+.drone-option-array > ul > li > div {
+	display: inline-block;
+	margin-right: 10px;
+}
+.drone-option-array > ul:empty {
+	display: none;
+}
+.drone-option-array.drone-option-array-sortable > ul > li {
+	cursor: move;
+}
+.drone-option-array > .drone-option-array-prototype {
+	display: none;
+}
+.drone-option-array > .drone-option-array-controls {
+	clear: both;
+}
+.drone-option-array .drone-option-array-placeholder {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px dashed #dfdfdf;
+	display: block;
+}
+.drone-widget-options .drone-option-array > ul > li {
+	position: relative;
+	padding-bottom: 31px;
+}
+.drone-widget-options .drone-option-array > ul > li > div {
+	display: block;
+	margin-right: 0;
+}
+.drone-widget-options .button.delete {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* Background option
+----------------------------------------------------------------------------- */
+.drone-option-background .drone-option-list {
+	min-width: 0;
+}

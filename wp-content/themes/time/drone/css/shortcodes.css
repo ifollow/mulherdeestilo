@@ -1,0 +1,108 @@
+/**
+ * Drone Shortcodes Style
+ *
+ * @since: 3.0
+ * @subpackage: Drone
+ */
+
+/* Icons
+----------------------------------------------------------------------------- */
+div[id$="drone-shortcodes_menu"].wp_themeSkin .mceIcon,
+div[aria-parent$="drone-shortcodes_menu"].wp_themeSkin .mceIcon {
+	background-image: url(../img/shortcodes-icons.png);
+	background-repeat: no-repeat;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_horizontal-line,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_divider {
+	background-position: 0 -20px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_mark,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_highlight {
+	background-position: 0 -40px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_dropcap {
+	background-position: 0 -60px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_icon {
+	background-position: 0 -80px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_button {
+	background-position: 0 -100px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_quote {
+	background-position: 0 -120px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_list {
+	background-position: 0 -140px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_message,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_box {
+	background-position: 0 -160px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_search-form {
+	background-position: 0 -180px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_contact-form {
+	background-position: 0 -200px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_columns,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_column {
+	background-position: 0 -220px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_tabs,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_tab {
+	background-position: 0 -240px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_toggles,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_toggle {
+	background-position: 0 -260px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_portfolio {
+	background-position: 0 -280px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_tooltip {
+	background-position: 0 -300px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_font {
+	background-position: 0 -320px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_media {
+	background-position: 0 -340px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_rating {
+	background-position: 0 -360px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_social-buttons {
+	background-position: 0 -380px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_custom-galleries {
+	background-position: 0 -400px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_bricks,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_bricks {
+	background-position: 0 -420px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_slider,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_slider {
+	background-position: 0 -440px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_scroller,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_scroller {
+	background-position: 0 -460px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_super-tabs,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_super-tabs {
+	background-position: 0 -480px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_post,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_posts,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_post,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_posts {
+	background-position: 0 -500px;
+}
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_page,
+div[id$="drone-shortcodes_menu"] .mceIcon.mce_custom-page,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_page,
+div[aria-parent$="drone-shortcodes_menu"] .mceIcon.mce_custom-page {
+	background-position: 0 -520px;
+}
